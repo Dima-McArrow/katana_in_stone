@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 1px 1px 3px white;
+}
+
+.manCont {
+  width: 230px;
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 13%;
+}
+
+.by {
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 1px 1px 3px white;
+  font-size: 24px;
+}
+
+.manualTwo {
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 1px 1px 3px white;
+  font-size: 24px;
+}
+
+#katanaOut {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  padding: 2.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.result {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hidden {
+  display: none !important;
+}
+
+#resultText {
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  text-align: center;
+}
+
+#retry {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  font-family: 'Kaushan Script', cursive;
+  transform: translateX(50%);
+  padding: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map*/
